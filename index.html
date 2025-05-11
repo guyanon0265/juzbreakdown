@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juz Breakdown</title>
+    <link rel="stylesheet" href="colors.css">
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        select {
+            appearance: none;
+            background-color: transparent;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 10px 40px 10px 12px;
+            margin: 20px;
+            margin-bottom: 5px;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23666'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 12px;
+        }
+
+        .mover {
+            margin: 20px;
+        }
+
+        .box {
+            width: auto;
+            border-radius: 15px;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 10px 40px 10px 12px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 30px;
+            font-size: 20px;
+        }
+
+        tr {
+            border: solid;
+            border-width: 1px 0;
+        }
+
+        tr:first-child {
+            border-top: none;
+        }
+
+        tr:last-child {
+            border-bottom: none;
+        }
+
+        th, td {
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <select>
+    <option>Uthmani Mushaf (15 Line)</option>
+    <option>IndoPak Mushaf (13 Line)</option>
+    </select>
+
+    <div class="box">
+        <h1>By Juz</h1>
+        <table>
+            <tr>
+                <th>Juz</th>
+                <th>Pages In Juz</th>
+                <th>Surahs</th>
+            </tr>
+            <tr>
+                <td>Juz 1</td>
+                <td>21 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color one"></div>1. Surah Al-Fatihah (1 page)</div>
+                    <div class="legend-item"><div class="legend-color two"></div>2. Surah Al-Baqarah (20 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 2</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color two"></div>2. Surah Al-Baqarah (20 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 3</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color two"></div>2. Surah Al-Baqarah (8 pages)</div>
+                    <div class="legend-item"><div class="legend-color three"></div>3. Surah Ali Imran (12 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 4</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color three"></div>3. Surah Ali Imran (15 pages)</div>
+                    <div class="legend-item"><div class="legend-color four"></div>4. Surah An-Nisa' (5 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 5</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color four"></div>4. Surah An-Nisa' (20 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 6</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color four"></div>4. Surah An-Nisa' (4.5 pages)</div>
+                    <div class="legend-item"><div class="legend-color five"></div>5. Surah Al-Ma'idah (15.5 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 7*</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color five"></div>5. Surah Al-Ma'idah (6 pages)</div>
+                    <div class="legend-item"><div class="legend-color six"></div>6. Surah Al-An'am (14 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 8</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color six"></div>6. Surah Al-An'am (9 pages)</div>
+                    <div class="legend-item"><div class="legend-color seven"></div>7. Surah Al-A'raf (11 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 9</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color seven"></div>7. Surah Al-A'raf (15 pages)</div>
+                    <div class="legend-item"><div class="legend-color eight"></div>8. Surah Al-An'am (5 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 10</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color eight"></div>8. Surah Al-An'am (5 pages)</div>
+                    <div class="legend-item"><div class="legend-color nine"></div>9. Surah At-Tawbah (15 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 11*</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color nine"></div>9. Surah At-Tawbah (6 pages)</div>
+                    <div class="legend-item"><div class="legend-color ten"></div>10. Surah Yunus (13.5 pages)</div>
+                    <div class="legend-item"><div class="legend-color eleven"></div>11. Surah Hud (0.5 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 12</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color eleven"></div>11. Surah Hud (13.5 pages)</div>
+                    <div class="legend-item"><div class="legend-color twelve"></div>12. Surah Yusuf (6.5 pages)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Juz 13</td>
+                <td>20 pages</td>
+                <td>
+                    <div class="legend-item"><div class="legend-color twelve"></div>12. Surah Yusuf (7 pages)</div>
+                </td>
+            </tr>
+        </table>
+        <p>*Starts in the middle of the page, thus page length is approximated to the nearest page.</p>
+    </div>
+
+    <div class="box">
+        <h1>By Surah</h1>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Ayat</th>
+                <th>Length</th>
+                <th>From</th>
+                <th>Juz</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color one"></div>1. Surah Al-Fatihah</div>
+                </td>
+                <td>7 ayat</td>
+                <td>1 page</td>
+                <td>Page 1</td>
+                <td>Juz 1 (1 page)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color two"></div>2. Surah Al-Baqarah</div>
+                </td>
+                <td>286 ayat</td>
+                <td>48 pages</td>
+                <td>Page 2 - 49</td>
+                <td>Juz 1 (20 pages)<br /> Juz 2 (20 pages)<br /> Juz 3 (8 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color three"></div>3. Surah Ali Imran</div>
+                </td>
+                <td>200 ayat</td>
+                <td>27 pages</td>
+                <td>Page 50 - 76</td>
+                <td>Juz 3 (12 pages) <br /> Juz 4 (15 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color four"></div>4. Surah An-Nisa'</div>
+                </td>
+                <td>176 ayat</td>
+                <td>29.5 pages</td>
+                <td>Page 77 - 106</td>
+                <td>Juz 4 (5 pages) <br /> Juz 5 (20 pages) <br /> Juz 6 (4.5 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color five"></div>5. Surah Al-Ma'idah</div>
+                </td>
+                <td>120 ayat</td>
+                <td>21.5 pages</td>
+                <td>Page 106 - 127</td>
+                <td>Juz 6 (15.5 pages)<br /> Juz 7 (6 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color six"></div>6. Surah Al-An'am</div>
+                </td>
+                <td>165 ayat</td>
+                <td>23 pages</td>
+                <td>Page 128 - 150</td>
+                <td>Juz 7 (14 pages) <br /> Juz 8 (9 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color seven"></div>7. Surah Al-A'raf</div>
+                </td>
+                <td>206 ayat</td>
+                <td>26 pages</td>
+                <td>Page 151 - 176</td>
+                <td>Juz 8 (11 pages) <br /> Juz 9 (15 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color eight"></div>8. Surah Al-An'am</div>
+                </td>
+                <td>75 ayat</td>
+                <td>10 pages</td>
+                <td>Page 177 - 186</td>
+                <td>Juz 9 (5 pages) <br /> Juz 10 (5 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color nine"></div>9. Surah At-Tawbah</div>
+                </td>
+                <td>129 ayat</td>
+                <td>21 pages</td>
+                <td>Page 187 - 207</td>
+                <td>Juz 10 (15 pages) <br /> Juz 11 (6 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color ten"></div>10. Surah Yunus</div>
+                </td>
+                <td>109 ayat</td>
+                <td>13.5 pages</td>
+                <td>Page 208 - 221</td>
+                <td>Juz 11 (13.5 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color eleven"></div>11. Surah Hud</div>
+                </td>
+                <td>123 ayat</td>
+                <td>14 pages</td>
+                <td>Page 221 - 235</td>
+                <td>Juz 11 (0.5 pages) <br /> Juz 12 (13.5 pages)</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="legend-item"><div class="legend-color twelve"></div>12. Surah Yusuf</div>
+                </td>
+                <td>111 ayat</td>
+                <td>13.5 pages</td>
+                <td>Page 235 - 248</td>
+                <td>Juz 12 (6.5 pages) <br /> Juz 13 (7 pages)</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="mover">
+        For PDFs of the Qur'an, click <a href="https://islamicstudies.info/quran/juz/" target="_blank">here</a>
+    </div>
+</body>
+</html>
