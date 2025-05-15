@@ -1,1 +1,3 @@
 # juzbreakdown
+
+bit.ly/juzbreakdown
