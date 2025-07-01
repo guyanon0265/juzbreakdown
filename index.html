@@ -12,6 +12,26 @@
             font-family: sans-serif;
         }
 
+        .table-container {
+            display: none;
+        }
+
+        .tables .table1 {
+            display: block;
+        }
+
+        #table1:target ~ .tables .table1 {
+            display: block;
+        }
+
+        #table2:target ~ .tables .table1 {
+            display: none;
+        }
+
+        #table2:target ~ .tables .table2 {
+            display: block;
+        }
+
         select {
             appearance: none;
             background-color: transparent;
@@ -112,15 +132,20 @@
 <body>
     <h1>UNDER CONSTRUCTION</h1>
     <h2>Multiple Data Errors</h2>
-    
+
+    <a href="#table1">Uthmani</a>
+    <a href="#table2">IndoPak</a>
+
+    <h1>Defunct - Pending Removal</h1>
     <select>
     <option>Uthmani Mushaf (15 Line - 604 Pages)</option>
     <option>IndoPak Mushaf (13 Line - 848 Pages)</option>
     </select>
 
     <div class="box">
-        <h1>By Juz</h1>
-        <table>
+        <div><h1>By Juz</h1></div>
+        <div class="table-container table1">
+            <table>
             <tr>
                 <th>Juz</th>
                 <th>Pages In Juz</th>
@@ -441,7 +466,11 @@
                 <div class="legend-item"><div class="legend-color n114"></div>114. Surah An-Nas (0.5 pages)</div>
             </td>
         </tr>
-        </table>
+            </table>
+        </div>
+        <div class="table-container table2">
+            <h1>Under Construction</h1>
+        </div>
         <p class="mover2">*Starts in the middle of the page, thus page length is approximated to the nearest page.</p>
     </div>
 
