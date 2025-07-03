@@ -37,8 +37,7 @@
             background-color: white;
             cursor: pointer;
             font-weight: bold;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: all ease;
             user-select: none;
         }
 
@@ -49,13 +48,12 @@
             border: 2px solid black;
             border-radius: 50%;
             background-color: white;
-            transition: all 0.3s ease;
+            transition: all ease;
         }
 
         #uthmani:checked ~ .radio-labels label[for="uthmani"],
         #indopak:checked ~ .radio-labels label[for="indopak"] {
             border-color: black;
-            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.15);
         }
 
         #uthmani:checked ~ .radio-labels label[for="uthmani"]::before,
@@ -160,9 +158,6 @@
     <h1>UNDER CONSTRUCTION</h1>
     <h2>Multiple Data Errors</h2>
 
-    <input type="radio" name="script" id="uthmani" checked>
-    <input type="radio" name="script" id="indopak">
-
     <div class="radio-labels">
         <div class="radio-option">
             <label for="uthmani">Uthmani Mushaf (15 Line - 604 Pages)</label>
@@ -174,6 +169,10 @@
     </div>
 
     <div class="box">
+    
+    <input type="radio" name="script" id="uthmani" checked>
+    <input type="radio" name="script" id="indopak">
+
         <div>
             <h1>By Juz</h1>
         </div>
