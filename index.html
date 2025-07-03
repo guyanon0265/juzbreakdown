@@ -16,19 +16,8 @@
             display: none;
         }
 
-        .tables .table1 {
-            display: block;
-        }
-
-        #table1:target ~ .tables .table1 {
-            display: block;
-        }
-
-        #table2:target ~ .tables .table1 {
-            display: none;
-        }
-
-        #table2:target ~ .tables .table2 {
+        #table1:checked ~ .tables .table1,
+        #table2:checked ~ .tables .table2 {
             display: block;
         }
 
@@ -133,16 +122,16 @@
     <h1>UNDER CONSTRUCTION</h1>
     <h2>Multiple Data Errors</h2>
 
-    <a href="#table1">Uthmani</a>
-    <a href="#table2">IndoPak</a>
-
     <select>
-    <option>Uthmani Mushaf (15 Line - 604 Pages)</option>
-    <option>IndoPak Mushaf (13 Line - 848 Pages)</option>
+        <option selected>Uthmani Mushaf (15 Line - 604 Pages)</option>
+        <option>IndoPak Mushaf (13 Line - 848 Pages)</option>
     </select>
 
-    <div id="table1"></div>
-    <div id="table2"></div>
+    <input type="radio" name="toggle" id="table1" checked>
+    <label for="table1">Show Table 1</label>
+
+    <input type="radio" name="toggle" id="table2">
+    <label for="table2">Show Table 2</label>
 
     <div class="box">
         <div><h1>By Juz</h1></div>
