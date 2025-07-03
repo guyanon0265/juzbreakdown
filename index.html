@@ -30,7 +30,6 @@
         label {
             display: flex;
             align-items: center;
-            gap: 10px;
             padding: 15px 30px;
             border: 2px solid #ccc;
             border-radius: 10px;
@@ -40,23 +39,9 @@
             user-select: none;
         }
 
-        label::before {
-            content: "";
-            width: 16px;
-            height: 16px;
-            border: 2px solid black;
-            border-radius: 50%;
-            background-color: white;
-        }
-
         #uthmani:checked ~ .radio-labels label[for="uthmani"],
         #indopak:checked ~ .radio-labels label[for="indopak"] {
             border-color: black;
-        }
-
-        #uthmani:checked ~ .radio-labels label[for="uthmani"]::before,
-        #indopak:checked ~ .radio-labels label[for="indopak"]::before {
-            background-color: black;
         }
 
         .table {
